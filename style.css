@@ -1,0 +1,828 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.OrangeWeb{
+    height: 1024px;
+    height: 33,3%;
+    width: auto;
+    background-color:#FF7B10;
+}
+
+.RedWeb{
+    height: 1024px;
+    height: 33,3%;
+    width: auto;
+    background-color:#CF0606;
+   
+}
+
+.BlueWeb{
+    height: 1024px;
+    height: 33,3%;
+    width: auto;
+    background-color: #3A37D8;
+}
+
+
+
+.MostText{
+    position: absolute;
+    width: 301px;
+    height: 142px;
+    padding-left: 350px;
+    top: 260px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 20%;
+    color: #FFFFFF;
+    
+}
+
+.context{
+    position: absolute;
+    width: 315px;
+    height: 26px;
+    left: 350px;
+    top: 525px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 103.02%;
+    color: #FFFFFF;
+}
+
+.Botton{
+    position: absolute;
+    width: 216px;
+    height: 40px;
+    left: 350px;
+    top: 584px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    box-sizing: border-box;
+    border: 4px solid #FFFFFF;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Botton:hover{
+    background:#D9D9D9;
+    border: 4px solid #D9D9D9;
+    color:#FF7B10;
+}
+
+.img{
+    position: absolute;
+    width: 628px;
+    height: 628px;
+    left: 850px;
+    top: 198px;
+}
+
+.MostText1{
+    position: absolute;
+    width: 388px;
+    height: 142px;
+    left: 841px;
+    top: 1408px;
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 20%;
+    color: #FFFFFF;
+}
+
+.content1{
+    position: absolute;
+    width: 315px;
+    height: 26px;
+    left: 843px;
+    top: 1670px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 103.02%;
+    color: #FFFFFF;
+}
+
+
+
+.img1{
+    position: absolute;
+    width: 978px;
+    height: 733.5px;
+    left: -40px;
+    top: 1169px;
+
+}
+
+.Botton1{
+    position: absolute;
+    width: 216px;
+    height: 40px;
+    left: 841px;
+    top: 1730px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    box-sizing: border-box;
+    border: 4px solid #FFFFFF;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Botton1:hover{
+    background:#D9D9D9;
+    border: 4px solid #D9D9D9;
+    color:#CF0606;
+}
+
+.MostText2{
+    position: absolute;
+    width: 445px;
+    height: 142px;
+    left: 181px;
+    top: 2422px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 20%;
+    color: #FFFFFF;
+
+}
+
+.content2{
+    position: absolute;
+    width: 315px;
+    height: 26px;
+    left: 181px;
+    top: 2684px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 103.02%;
+    color: #FFFFFF; 
+}
+
+.Botton2{
+    position: absolute;
+    width: 216px;
+    height: 40px;
+    left: 181px;
+    top: 2745px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    box-sizing: border-box;
+    border: 4px solid #FFFFFF;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
+
+.Botton2:hover{
+    background:#D9D9D9;
+    border: 4px solid #D9D9D9;
+    color:#3A37D8;
+}
+
+.img2{
+
+    position: absolute;
+    width: 883px;
+    height: 662px;
+    left: 614px;
+    top: 2329px;
+}
+
+@media only screen and (max-width: 3000px) {
+    .BlueWeb, .RedWeb{
+       height: 1600px;
+    }
+
+    .OrangeWeb{
+        height: 1600px;
+    }
+
+    .MostText{
+        left: 400px;
+        top: 550px;
+    }
+    .context{
+        left:755px;
+        top: 800px;
+    }
+    .Botton{
+        left:755px;
+        top: 860px;
+    }
+    .img{
+        left: 1250px;
+        top: 450px;
+    }
+
+   .MostText1{
+        top: 2308px;
+        left: 1400px;
+   }
+   .content1{
+        top:2570px;
+        left: 1400px;
+   }
+   .Botton1{
+        top: 2630px;
+        left: 1400px;
+   }
+   .img1{
+        top: 2100px;
+        left: 500px;
+   }
+
+
+   .MostText2{
+        top: 3922px;
+        left: 600px;
+   }
+   .content2{
+        top: 4184px;
+        left: 600px;
+   }
+   .Botton2{
+        top: 4245px;
+        left: 600px;
+   }
+   .img2{
+        top: 3829px;
+        left: 1100px;
+   }
+}
+
+@media only screen and (max-width: 2200px) {
+    .BlueWeb, .RedWeb{
+       height: 1400px;
+    }
+
+    .OrangeWeb{
+        height: 1400px;
+    }
+
+    .MostText{
+        left: 400px;
+        top: 450px;
+    }
+    .context{
+        left:755px;
+        top: 700px;
+    }
+    .Botton{
+        left:755px;
+        top: 760px;
+    }
+    .img{
+        left: 1250px;
+        top: 350px;
+    }
+
+   .MostText1{
+        top: 1958px;
+        left: 1400px;
+   }
+   .content1{
+        top:2220px;
+        left: 1400px;
+   }
+   .Botton1{
+        top: 2280px;
+        left: 1400px;
+   }
+   .img1{
+        top: 1750px;
+        left: 500px;
+   }
+
+
+   .MostText2{
+        top: 3322px;
+        left: 600px;
+   }
+   .content2{
+        top: 3584px;
+        left: 600px;
+   }
+   .Botton2{
+        top: 3645px;
+        left: 600px;
+   }
+   .img2{
+        top: 3229px;
+        left: 1100px;
+   }
+}
+
+@media only screen and (max-width: 2000px) {
+    .BlueWeb, .RedWeb{
+       height: 1400px;
+    }
+
+    .OrangeWeb{
+        height: 1400px;
+    }
+
+    .MostText{
+        left: 200px;
+        top: 550px;
+    }
+    .context{
+        left:555px;
+        top: 800px;
+    }
+    .Botton{
+        left:555px;
+        top: 860px;
+    }
+    .img{
+        left: 1050px;
+        top: 450px;
+    }
+
+   .MostText1{
+        top: 2058px;
+        left: 1050px;
+   }
+   .content1{
+        top:2320px;
+        left: 1050px;
+   }
+   .Botton1{
+        top: 2380px;
+        left: 1050px;
+   }
+   .img1{
+        top: 1850px;
+        left: 150px;
+   }
+
+
+   .MostText2{
+        top: 3322px;
+        left: 300px;
+   }
+   .content2{
+        top: 3584px;
+        left: 300px;
+   }
+   .Botton2{
+        top: 3645px;
+        left: 300px;
+   }
+   .img2{
+        top: 3229px;
+        left: 800px;
+   }
+}
+
+@media only screen and (max-width: 1700px) {
+    .BlueWeb, .RedWeb{
+       height: 1250px;
+    }
+
+    .OrangeWeb{
+        height: 1250px;
+    }
+
+    .MostText{
+        left: -20px;
+        top: 450px;
+    }
+    .context{
+        left:345px;
+        top: 700px;
+    }
+    .Botton{
+        left:345px;
+        top: 760px;
+    }
+    .img{
+        left: 820px;
+        top: 350px;
+    }
+
+   .MostText1{
+        top: 1708px;
+        left: 850px;
+   }
+   .content1{
+        top:1970px;
+        left: 850px;
+   }
+   .Botton1{
+        top: 2030px;
+        left: 850px;
+   }
+   .img1{
+        top: 1500px;
+        left: -50px;
+   }
+
+
+   .MostText2{
+        top: 2922px;
+        left: 100px;
+   }
+   .content2{
+        top: 3184px;
+        left: 100px;
+   }
+   .Botton2{
+        top: 3245px;
+        left: 100px;
+   }
+   .img2{
+        top: 2829px;
+        left: 600px;
+   }
+}
+
+@media only screen and (max-width: 1450px) {
+    .BlueWeb, .RedWeb{
+       height: 1250px;
+       width: 100%;
+    }
+
+    .OrangeWeb{
+        height: 1250px;
+        width: 100%;
+    }
+
+    .MostText{
+        left: -20px;
+        top: 650px;
+    }
+    .context{
+        left:345px;
+        top: 900px;
+    }
+    .Botton{
+        left:345px;
+        top: 960px;
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+        left: 300px;
+        top: 50px;
+    }
+
+   .MostText1{
+        top: 2008px;
+        left: 350px;
+   }
+   .content1{
+        top:2270px;
+        left: 350px;
+   }
+   .Botton1{
+        top: 2330px;
+        left: 350px;
+   }
+   .img1{
+        
+        top: 1300px;
+        left: 50px;
+   }
+
+
+   .MostText2{
+        top: 3222px;
+        left: 300px;
+   }
+   .content2{
+        top: 3484px;
+        left: 300px;
+   }
+   .Botton2{
+        top: 3545px;
+        left: 300px;
+   }
+   .img2{
+        top: 2529px;
+        left: 100px;
+   }
+}
+
+@media only screen and (max-width: 1004px) {
+    .BlueWeb, .RedWeb{
+       height: 1250px;
+       width: 100%;
+    }
+
+    .OrangeWeb{
+        height: 1250px;
+        width: 100%;
+    }
+
+    .MostText{
+        left: -300px;
+        top: 650px;
+    }
+    .context{
+        left:50px;
+        top: 900px;
+    }
+    .Botton{
+        left:50px;
+        top: 960px;
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+        left: -25px;
+        top: 50px;
+    }
+
+   .MostText1{
+        top: 2008px;
+        left: 50px;
+   }
+   .content1{
+        top:2270px;
+        left: 50px;
+   }
+   .Botton1{
+        top: 2330px;
+        left: 50px;
+   }
+   .img1{
+        
+        top: 1300px;
+        left: -50px;
+   }
+
+
+   .MostText2{
+        top: 3222px;
+        left: 30px;
+   }
+   .content2{
+        top: 3484px;
+        left: 30px;
+   }
+   .Botton2{
+        top: 3545px;
+        left: 30px;
+   }
+   .img2{
+        top: 2529px;
+        left: -60px;
+   }
+}
+
+@media only screen and (max-width: 940px) {
+    .BlueWeb, .RedWeb{
+       height: 1000px;
+       width: 100%;
+    }
+
+    .OrangeWeb{
+        height: 1000px;
+        width: 100%;
+    }
+
+    .MostText{
+        left: -300px;
+        top: 350px;
+    }
+    .context{
+        left:50px;
+        top: 600px;
+    }
+    .Botton{
+        left:50px;
+        top: 660px;
+    }
+    .img{
+        display: none;
+        width: 100px;
+        height: 100px;
+        left: -25px;
+        top: 50px;
+    }
+
+   .MostText1{
+        top: 1208px;
+        left: 50px;
+   }
+   .content1{
+        top:1470px;
+        left: 50px;
+   }
+   .Botton1{
+        top: 1530px;
+        left: 50px;
+   }
+   .img1{
+        display: none;
+        top: 1300px;
+        left: -50px;
+   }
+
+
+   .MostText2{
+        top: 2222px;
+        left: 30px;
+   }
+   .content2{
+        top: 2484px;
+        left: 30px;
+   }
+   .Botton2{
+        top: 2545px;
+        left: 30px;
+   }
+   .img2{
+        display: none;
+        top: 2529px;
+        left: -60px;
+   }
+}
+
+@media only screen and (max-width: 680px) {
+    .BlueWeb, .RedWeb{
+       height: 1000px;
+       width: 100%;
+    }
+
+    .OrangeWeb{
+        height: 1000px;
+        width: 100%;
+    }
+
+    .MostText{
+        left: -300px;
+        top: 350px;
+        font-size: 50px;
+    }
+    .context{
+        left:50px;
+        top: 530px;
+    }
+    .Botton{
+        left:50px;
+        top: 590px;
+    }
+    .img{
+        display: none;
+        width: 100px;
+        height: 100px;
+        left: -25px;
+        top: 50px;
+    }
+
+   .MostText1{
+        top: 1208px;
+        left: 50px;
+        font-size: 50px;
+       
+   }
+   .content1{
+        top:1390px;
+        left: 50px;
+   }
+   .Botton1{
+        top: 1445px;
+        left: 50px;
+   }
+   .img1{
+        display: none;
+        top: 1300px;
+        left: -50px;
+   }
+
+
+   .MostText2{
+        top: 2222px;
+        left: 30px;
+        font-size: 50px;
+  
+   }
+   .content2{
+        top: 2410px;
+        left: 30px;
+   }
+   .Botton2{
+        top: 2465px;
+        left: 30px;
+   }
+   .img2{
+        display: none;
+        top: 2529px;
+        left: -60px;
+   }
+}
+
+@media only screen and (max-width: 493px) {
+    .BlueWeb, .RedWeb{
+       height: 800px;
+       width: 100%;
+    }
+
+    .OrangeWeb{
+        height: 800px;
+        width: 100%;
+    }
+
+    .MostText{
+        left: -300px;
+        top: 250px;
+        font-size: 30px;
+    }
+    .context{
+        left:50px;
+        top: 350px;
+    }
+    .Botton{
+        left:50px;
+        top: 403px;
+    }
+    .img{
+        display: none;
+        width: 100px;
+        height: 100px;
+        left: -25px;
+        top: 50px;
+    }
+
+   .MostText1{
+        top: 1008px;
+        left: 50px;
+        font-size: 30px;
+       
+   }
+   .content1{
+        top:1110px;
+        left: 50px;
+   }
+   .Botton1{
+        top: 1160px;
+        left: 50px;
+   }
+   .img1{
+        display: none;
+        top: 1300px;
+        left: -50px;
+   }
+
+
+   .MostText2{
+        top: 1822px;
+        left: 30px;
+        font-size: 30px;
+  
+   }
+   .content2{
+        top: 1925px;
+        left: 30px;
+   }
+   .Botton2{
+        top: 1975px;
+        left: 30px;
+   }
+   .img2{
+        display: none;
+        top: 2529px;
+        left: -60px;
+   }
+}
+
+
+
+
